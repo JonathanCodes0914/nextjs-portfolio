@@ -1,0 +1,18 @@
+.accomplishmentsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  order: 1;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+
+.accomplishmentsBlock {
+    width: 170px;
+    height: 130px;
+    margin: 10px;
+    box-shadow: rgba(194, 180, 180, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    text-align: center;
+}

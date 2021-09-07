@@ -1,0 +1,42 @@
+.projectCardWrapper {
+    box-shadow: rgba(194, 180, 180, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.projectCardWrapper > h1 {
+    text-align: center;
+}
+.projectCardWrapper > img {
+ width: 350px;
+ height: 600px;
+
+ 
+}
+
+.projectCardTags {
+    display: flex;
+    color: red;
+    margin: auto;
+   
+}
+
+.projectCardTags > h4 {
+    padding: 15px;
+    color: rgb(137, 206, 137);
+}
+
+.projectCardWrapper > button {
+    display: block;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to right, #0f2632,  rgb(137, 206, 137));
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+

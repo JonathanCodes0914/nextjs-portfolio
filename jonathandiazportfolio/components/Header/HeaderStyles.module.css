@@ -1,0 +1,30 @@
+.headerWrapper {
+    width: 100%;
+
+}
+.name {
+    font-size: large;
+    font-weight: bold;
+}
+
+.headerLinksWrapper{
+    display: flex;
+}
+
+.headerLinks  {
+    display: flex;
+    margin: auto;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.portfolioLinks {
+   text-align: center;
+   margin-top: 40px;
+}
+
+.portfolioLinks > a {
+    padding-right: 20px;
+    font-size: large;
+    font-weight: bold;
+}
