@@ -4,9 +4,10 @@ import styles from './TechnologiesStyles.module.css';
 const Technologies = () => {
     return (
         <div className={styles.technologiesWrapper}>
+              <h1>Technologies</h1>
             <div className={styles.technologiesText}>
-                <h1>Technologies</h1>
-            <p>I've gained experience with a range of technologies in web development. From Front-End development, creating Reusable Components and layouts to Back-End development creating Restful APIS - CRUD applications and data models. </p>
+              
+            <p>I've gained experience with a range of technologies in web development. From Front-End development, creating Reusable Components and layouts to Back-End development creating Restful API's - CRUD applications and data models. </p>
             </div>
 
             <div className={styles.technologiesStack}>
@@ -24,7 +25,7 @@ const Technologies = () => {
                     <li>
                         <h3>API's </h3>
                        
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p></p>
                     </li>
                 </ul>
             </div>

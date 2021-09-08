@@ -1,4 +1,11 @@
 .aboutWrapper {
-    padding: 10px;
+    padding: 25px;
     margin-top: 30px;
+   
+}
+
+.aboutText > p {
+    font-size: 20px;
+    color: darkgray;
+    /* -webkit-mask-image: linear-gradient(to right, rgb(230, 76, 76), rgba(0,0,0,0)); */
 }
