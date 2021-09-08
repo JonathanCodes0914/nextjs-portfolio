@@ -1,0 +1,43 @@
+.timelineWrapper {
+    margin-top: 30px;
+}
+
+.carouselContainer {
+  background: #0F1624;
+  padding: 0rem;
+  list-style:none;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+
+  
+}
+
+.carouselItem{
+    background: #0F2632;
+    border-radius: 3px;
+  width: 150px;
+  flex: 0 0 auto; 
+    margin: 3px;
+    padding: 5px;
+}
+
+.carouselItem > h5 {
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+}
+.carouselButtons {
+    width: 288px;
+    display: none;
+   
+}
+
+.carouselButton {
+  box-sizing: border-box;
+  background: none;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  
+}

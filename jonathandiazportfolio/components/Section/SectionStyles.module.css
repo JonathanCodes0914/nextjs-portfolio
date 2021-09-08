@@ -4,8 +4,17 @@
   
 }
 
+
 .SectionLeft {
-   
+width: 50%;
+margin: auto;
+}
+
+.SectionLeft > h1 {
+      background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
 }
 
 .SectionLeft > button {
@@ -27,5 +36,30 @@
 }
 
 .SectionRight {
+    width: 50%;
+}
+
+.sectionLeftRightWrapper{
+    display: flex;
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .sectionLeftRightWrapper{
+        
+    }
+
+    .SectionRight {
+        display: none;
+    }
     
+    .SectionLeft{
+        width: 100%;
+    }
 }

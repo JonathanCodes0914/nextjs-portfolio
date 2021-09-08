@@ -1,0 +1,28 @@
+.footerWrapper {
+    padding: 25px;
+    margin-top: 30px;
+}
+
+
+
+.footerContact{
+display: flex;
+justify-content: flex-start;
+}
+
+.footerContact > span {
+  margin: 5px;
+}
+
+.footerContact > span > p {
+    font-size: small;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.footerLinks > span {
+    margin: 10px;
+}

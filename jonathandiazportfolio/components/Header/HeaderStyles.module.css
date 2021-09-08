@@ -3,12 +3,20 @@
 
 }
 .name {
-    font-size: large;
+    font-size: 30px;
     font-weight: bold;
+    
 }
 
 .headerLinksWrapper{
     display: flex;
+}
+
+
+.headerLinksWrapper > span {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
 }
 
 .headerLinks  {
@@ -16,6 +24,10 @@
     margin: auto;
     padding-left: 70px;
     padding-top: 10px;
+}
+
+.headerLinks > span {
+    margin: 10px;
 }
 
 .portfolioLinks {

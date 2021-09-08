@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './TechnologiesStyles.module.css';
+import {VscBrowser, VscCircuitBoard, VscCompareChanges} from 'react-icons/vsc';
+
 
 const Technologies = () => {
     return (
@@ -13,17 +15,17 @@ const Technologies = () => {
             <div className={styles.technologiesStack}>
                 <ul>
                     <li>
-                        <h3>Front-End</h3>
+                       <h3> <VscBrowser size='1rem'/> Front-End</h3>
                         
                         <p>Experienced with ReactJs, Nextjs, and State Managing Libraries for user interfaces. </p>
                     </li>
                     <li>
-                        <h3>Back-End</h3 >
+                        <h3><VscCircuitBoard /> Back-End</h3 >
                         
                         <p>Experienced with NodeJs, NPM, MongoDB, Firebase, Express</p>
                     </li>
                     <li>
-                        <h3>API's </h3>
+                        <h3><VscCompareChanges /> API's </h3>
                        
                         <p></p>
                     </li>

@@ -2,12 +2,19 @@
   display: flex;
   flex-wrap: wrap;
   order: 1;
-    padding: 17px;
+    padding: 20px;
     
     justify-content: center;
     
 }
 
+
+.accomplishmentsWrapper > h1 {
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
 .accomplishmentsBlock {
     width: 170px;
     height: 130px;

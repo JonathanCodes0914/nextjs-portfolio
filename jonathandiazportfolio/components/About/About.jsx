@@ -1,4 +1,5 @@
 import React from 'react';
+import Timeline from '../Timeline/Timeline';
 import styles from './AboutStyles.module.css';
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
             </div>
 
             <div className={styles.aboutTimeline}>
-                <h4>timeline</h4>
+               <Timeline />
             </div>
         </div>
     )

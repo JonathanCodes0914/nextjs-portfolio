@@ -2,7 +2,12 @@
     padding: 20px;
     margin-top: 50px;
 }
-
+.technologiesWrapper > h1 {
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
 
 .technologiesText > p {
     font-size: 20px;
@@ -18,4 +23,8 @@
 .technologiesStack > ul > li > p {
     font-size: 15px;
     color: darkgray;
+}
+
+.technologiesStack > ul > li > span {
+    display: inline;
 }

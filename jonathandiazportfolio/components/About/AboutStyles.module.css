@@ -4,6 +4,13 @@
    
 }
 
+.aboutWrapper > h1 {
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
 .aboutText > p {
     font-size: 20px;
     color: darkgray;
