@@ -3,7 +3,6 @@
 }
 
 .carouselContainer {
-  background: #0F1624;
   padding: 0rem;
   list-style:none;
   display: flex;
@@ -41,3 +40,22 @@
   cursor: pointer;
   
 }
+
+/*Desktop views */
+
+@media (min-width:1025px){
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+}
+.carouselItem {
+  box-shadow: rgba(194, 180, 180, 0.24) 0px 3px 8px;
+  margin: 20px;
+  height: auto;
+}
+
+.carouselItem > p{
+  font-size: 25px;
+}
+}
+ 

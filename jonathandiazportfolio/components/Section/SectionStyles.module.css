@@ -63,3 +63,26 @@ margin: auto;
         width: 100%;
     }
 }
+
+/*Desktop views */
+
+@media (min-width:1025px){
+    .SectionLeft > h1 {
+        font-size: 55px;
+    }
+
+    .SectionLeft > p {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .SectionLeft > button {
+        width:75%;
+    }
+
+    .SectionLeft > button:hover {
+        background-image: linear-gradient(to right, #0f2632,  rgb(137, 206, 137));
+        cursor: pointer;
+    }
+}
+ 

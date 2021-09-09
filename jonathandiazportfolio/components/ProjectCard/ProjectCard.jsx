@@ -4,11 +4,11 @@ import style from './ProjectCardStyles.module.css';
 import { projects } from '../../constants/constants';
 
 
-const ProjectCard = ({ image, projectName, projectDescription, projectTags, projectVisit }) => {
+const ProjectCard = ({ projectImage, projectName, projectDescription, projectTags, projectVisit }) => {
     return (
 
         <div className={style.projectCardWrapper}>
-            <img src='https://www.globalcosmeticsnews.com/wp-content/uploads/2019/01/amazon-625x352.jpg' />
+            <img src={projectImage} />
             <h2>{projectName}</h2>
             <p>{projectDescription}</p>
       

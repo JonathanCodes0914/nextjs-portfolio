@@ -5,8 +5,9 @@ import {VscBrowser, VscCircuitBoard, VscCompareChanges} from 'react-icons/vsc';
 
 const Technologies = () => {
     return (
-        <div className={styles.technologiesWrapper}>
+        <div id='tech' className={styles.technologiesWrapper}>
               <h1>Technologies</h1>
+              <div className={styles.underline}></div>
             <div className={styles.technologiesText}>
               
             <p>I've gained experience with a range of technologies in web development. From Front-End development, creating Reusable Components and layouts to Back-End development creating Restful API's - CRUD applications and data models. </p>
@@ -22,12 +23,15 @@ const Technologies = () => {
                     <li>
                         <h3><VscCircuitBoard /> Back-End</h3 >
                         
-                        <p>Experienced with NodeJs, NPM, MongoDB, Firebase, Express</p>
+                        <p>Experienced with NodeJs, NPM, MongoDB, Firebase, Express.</p>
                     </li>
                     <li>
                         <h3><VscCompareChanges /> API's </h3>
                        
-                        <p></p>
+                        <p>
+                            Experienced with building RESTFUL API's & 3rd party API integrations.
+
+                        </p>
                     </li>
                 </ul>
             </div>

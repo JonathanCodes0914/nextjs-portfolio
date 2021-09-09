@@ -2,7 +2,7 @@ export const projects = [
     {
         title: 'Amazon Clone',
         description: "Full-stack Amazon Clone built with Reactjs, React Context APi, Firebase, Integrated with Stripe payments",
-        image: '',
+        image: '/images/amazon.png',
         tags: ['Firebase', 'React', 'React Context API', 'Stripe'],
         visit: 'https://clone-42d37.web.app/',
         id: 0,
@@ -10,7 +10,7 @@ export const projects = [
     {
         title: 'Netflix Clone',
         description: "A clone of Netflix built with React and TMDB(themoviedb) API, deployed with firebase",
-        image: '',
+        image: '/images/netflix.png',
         tags: ['React', 'TMDB(themoviedb)','Firebase' ],
         visit: 'https://netflix-clone-a76ab.web.app/',
         id: 2,
@@ -18,7 +18,7 @@ export const projects = [
     {
         title: 'Glam Me',
         description: "MERN Stack ,Glam Me is an on-call beauty service that offers technicians a way to bring beauty expertise to clients door steps.",
-        image: '',
+        image: '/images/glamme.png',
         tags: ['MongoDB', 'Express', 'React' , 'Node'],
         source: 'https://google.com',
         visit: 'http://glamme.herokuapp.com/',

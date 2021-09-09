@@ -34,9 +34,22 @@
     height: 40px;
     border-radius: 10px;
     background-color: #fff;
-    background-image: linear-gradient(to right, #0f2632,  rgb(137, 206, 137));
+    background-image: linear-gradient(to right, #d3d3d3,  rgb(137, 206, 137));
     font-size: 20px;
     font-weight: bold;
     margin: auto;
 }
 
+
+/*desktop views */
+
+@media (min-width:1025px){
+    .projectCardWrapper {
+        height: auto;
+        width: 350px;
+        break-inside: avoid-column;
+        box-shadow: rgba(194, 180, 180, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+    }
+       }
+        

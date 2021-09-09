@@ -52,6 +52,7 @@ const Timeline = () => {
                         <p>{item.year}</p>
                         <h5>{item.text}</h5>
                     </div>
+                
                 ))}
        
         </div>

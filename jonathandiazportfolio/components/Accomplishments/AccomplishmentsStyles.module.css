@@ -1,13 +1,13 @@
 .accomplishmentsWrapper {
-  display: flex;
-  flex-wrap: wrap;
-  order: 1;
-    padding: 20px;
-    
-    justify-content: center;
+ padding: 20px;
     
 }
 
+.accomplishmentsAll {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+}
 
 .accomplishmentsWrapper > h1 {
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
@@ -16,10 +16,30 @@
   font-size: 40px;
 }
 .accomplishmentsBlock {
-    width: 170px;
+    width: 160px;
     height: 130px;
-    margin: 10px;
+    margin: 13px;
     box-shadow: rgba(194, 180, 180, 0.24) 0px 3px 8px;
     border-radius: 10px;
     text-align: center;
 }
+
+.underline {
+  width: 100px;
+  height: 5px;
+  background-image: linear-gradient(to right, #d3d3d3,  rgb(137, 206, 137));
+}
+
+/*desktop view */
+@media (min-width:1025px){
+
+  .accomplishmentsWrapper > h1{
+    font-size: 45px;
+  }
+
+  .accomplishmentsAll {
+    display: flex;
+    justify-content: ce;
+  }
+     }
+      

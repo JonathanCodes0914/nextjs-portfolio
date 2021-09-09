@@ -30,9 +30,9 @@ const Header = () => {
             </div>
 
             <div className={styles.portfolioLinks}>
-                <a>About</a>
-                <a>Tech</a>
-                <a>Projects</a>
+                <Link href='#about'>About</Link>
+                <Link href='#tech'>Tech</Link>
+                <Link href='#projects'>Projects</Link>
             </div>
         </div>
     )

@@ -13,5 +13,21 @@
 .projectCards {
     position: relative;
     margin: auto;
+    margin-top: 20px;
 }
 
+.underline {
+    width: 100px;
+    height: 5px;
+    background-image: linear-gradient(to right, #d3d3d3,  rgb(137, 206, 137));
+}
+
+
+@media (min-width:1025px){
+  .projectCards {
+     column-count: 2;
+     column-gap: 10px;
+      
+  }
+     }
+      

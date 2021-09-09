@@ -40,3 +40,12 @@
     font-size: large;
     font-weight: bold;
 }
+
+.portfolioLinks > a:hover {
+    padding-right: 20px;
+    font-size: large;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #c4bebe,  rgb(137, 206, 137));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
