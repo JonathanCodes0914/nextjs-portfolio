@@ -1,5 +1,13 @@
 export const projects = [
     {
+        title: 'Gmail Clone',
+        description: "A clone of Gmail, Users sign in with google authentication and are able to compose new emails to others users aswell as view the emails",
+        image: '/images/gmail.png',
+        tags: [ ,"ReactJs", "Firebase", 'Redux'],
+        visit: 'https://clone-29a85.web.app/',
+        id: 0,
+    },
+    {
         title: 'Urban Vibez',
         description: "Social media like application tailored to scale small business all in one place by gaining connections and bookings with new customers, to selling products and placing events.",
         image: '/images/urban.png',
@@ -10,7 +18,7 @@ export const projects = [
     {
         title: 'Amazon Clone',
         description: "Full-stack Amazon Clone built with Reactjs, React Context APi, Firebase, Integrated with Stripe payments",
-        image: '/images/amazon.png',
+        image: '/images/amazonb.png',
         tags: ['Firebase', 'React', 'React Context API', 'Stripe'],
         visit: 'https://clone-42d37.web.app/',
         id: 0,

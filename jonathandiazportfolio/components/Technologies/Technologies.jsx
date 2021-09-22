@@ -10,7 +10,7 @@ const Technologies = () => {
               <div className={styles.underline}></div>
             <div className={styles.technologiesText}>
               
-            <p>I've gained experience with a range of technologies in web development. From Front-End development, creating Reusable Components and layouts to Back-End development creating Restful API's - CRUD applications and data models. </p>
+            <p>I've gained experience with a span of technologies in web development. From Front-End development, creating Reusable Components and layouts to Back-End development creating Restful API's - CRUD applications and data models. </p>
             </div>
 
             <div className={styles.technologiesStack}>

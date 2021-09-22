@@ -8,12 +8,16 @@ const About = () => {
             <h1>About Me</h1>
             <div className={styles.underline}></div>
             <div className={styles.aboutText}>
-                
-                <p>A Continuously growing passion and experience in Software Development for 2 years. Excited to expand my knowledge and continue my education in the field. Looking to further develop my skills as a developer and gain experience as i work. Experienced in working with both Front-End and Back-End technologies, specialized in JavaScript and always seeking to expand on my current knowledge base.</p>
+
+                <p>Continuously growing passion and experience in Software Development for 2 years and a proven knowledge
+
+                    of application development, data communications, and database design. Experienced in working with both
+
+                    front-end and back-end technologies, specialized in JavaScript. Excited to further develop my skills as a developer and gain experience at a great company.</p>
             </div>
 
             <div className={styles.aboutTimeline}>
-               <Timeline />
+                <Timeline />
             </div>
         </div>
     )

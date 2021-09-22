@@ -12,7 +12,7 @@ const Section = () => {
 
                 <div className={styles.SectionLeft}>
                     <h1>Welcome take a look !</h1>
-                    <p>Join me and discover what i've been up to ! My adventure as a web developer ! View all the awesome things i've built the last two years, progressing not only as a developer but as a person.</p>
+                    <p>Join me and discover what i've been up to ! My adventure as a web developer ! View all the awesome things i've built the last two years.</p>
                    <a href='#about'> <button>Discover More</button></a>
                 </div>
                 <div className={styles.SectionRight}>
