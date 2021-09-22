@@ -1,7 +1,7 @@
 .sectionWrapper{
     padding: 20px;
     margin-top: 50px;
-  
+
 }
 
 
@@ -17,7 +17,7 @@ margin: auto;
   font-size: 40px;
 }
 
-.SectionLeft > button {
+.SectionLeft > a > button {
     display: block;
     width: 50%;
     height: 40px;
@@ -36,7 +36,12 @@ margin: auto;
 }
 
 .SectionRight {
-    width: 50%;
+   width: 50%;
+   justify-content: center;
+}
+
+.SectionRight > img {
+
 }
 
 .sectionLeftRightWrapper{
@@ -76,7 +81,7 @@ margin: auto;
         padding: 20px;
     }
 
-    .SectionLeft > button {
+    .SectionLeft > a > button {
         width:75%;
     }
 

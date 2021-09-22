@@ -1,5 +1,13 @@
 export const projects = [
     {
+        title: 'Urban Vibez',
+        description: "Social media like application tailored to scale small business all in one place by gaining connections and bookings with new customers, to selling products and placing events.",
+        image: '/images/urban.png',
+        tags: ["NextJs" ,"ReactJs", "Stripe" , "MongoDB", "Firebase", "Express" ,"Node"],
+        visit: 'https://urban-vibez-next-beta.vercel.app',
+        id: 0,
+    },
+    {
         title: 'Amazon Clone',
         description: "Full-stack Amazon Clone built with Reactjs, React Context APi, Firebase, Integrated with Stripe payments",
         image: '/images/amazon.png',

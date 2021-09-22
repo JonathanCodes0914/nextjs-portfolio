@@ -1,29 +1,23 @@
 .headerWrapper {
     width: 100%;
+   font-family: monospace;
+}
 
-}
-.name {
-    font-size: 30px;
-    font-weight: bold;
-    
-}
 
 .headerLinksWrapper{
     display: flex;
 }
 
-
-.headerLinksWrapper > span {
-    display: flex;
-    justify-content: center;
-    margin: 15px;
+.headerLinksWrapper > h1{
+    padding-left: 20px;
+    font-size: 35px;
 }
+
 
 .headerLinks  {
     display: flex;
-    margin: auto;
-    padding-left: 70px;
-    padding-top: 10px;
+ margin: auto;
+
 }
 
 .headerLinks > span {
@@ -37,7 +31,7 @@
 
 .portfolioLinks > a {
     padding-right: 20px;
-    font-size: large;
+    font-size: 20px;
     font-weight: bold;
 }
 

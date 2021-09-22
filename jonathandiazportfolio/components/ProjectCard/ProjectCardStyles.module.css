@@ -18,6 +18,7 @@
 
 .projectCardTags {
     display: flex;
+    flex-wrap: wrap;
     color: red;
     margin: auto;
    

@@ -1,6 +1,7 @@
 .technologiesWrapper{
     padding: 20px;
     margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .technologiesWrapper > h1 {
     background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
