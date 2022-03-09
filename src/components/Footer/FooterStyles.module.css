@@ -26,3 +26,11 @@ justify-content: flex-start;
 .footerLinks > span {
     margin: 10px;
 }
+
+.footerLinks > span:hover {
+    cursor: pointer;
+}
+
+.footerLinks > span > a > button:hover {
+    cursor: pointer;
+}

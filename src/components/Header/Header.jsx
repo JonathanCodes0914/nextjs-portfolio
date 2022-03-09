@@ -14,17 +14,22 @@ const Header = () => {
                          <h1>Jonathan Diaz</h1> 
                
                 <div className={styles.headerLinks}>
-               
+                <span>
+              
+                  <a target="_blank" rel="noopener noreferrer" href='https://docs.google.com/document/d/1D3vs5_fefi71YpGNdm0RiHTVUQ8fHDeIKiy8gcF-Gek/edit?usp=sharing'>
+                        <button style={{height: '35px', marginTop: '9px', fontWeight: 'bold', fontSize: 'large', backgroundColor: 'black', color: 'white'}}>Resume</button>
+                    </a>
+                  </span>
                    <span>
-                   <Link href='https://www.linkedin.com/in/jonathan-diaz-46a7ba15b/'>
+                   <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/jonathan-diaz-46a7ba15b/'>
                         <AiOutlineLinkedin size='3rem' />
-                    </Link>
+                    </a>
                    </span>
 
                   <span>
-                  <Link href='https://github.com/JonathanCodes0914'>
+                  <a target="_blank" rel="noopener noreferrer" href='https://github.com/JonathanCodes0914'>
                         <AiOutlineGithub size='3rem'/>
-                    </Link>
+                    </a>
                   </span>
                 </div>
             </div>

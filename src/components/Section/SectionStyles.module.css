@@ -49,6 +49,10 @@ margin: auto;
 }
 
 
+.SectionLeft > a > button:hover {
+    cursor: pointer;
+}
+
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
